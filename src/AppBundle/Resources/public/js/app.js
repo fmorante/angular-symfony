@@ -7,5 +7,6 @@ angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.directives', 
     $routeProvider.when('/login', {templateUrl: '/bundles/app/partials/login.html', controller: 'Login'});
     $routeProvider.when('/view1', {templateUrl: '/bundles/app/partials/partial1.html', controller: 'MyCtrl1'});
     $routeProvider.when('/view2', {templateUrl: '/bundles/app/partials/partial2.html', controller: 'MyCtrl2'});
+    $routeProvider.when('/view3', {templateUrl: '/bundles/app/partials/partial3.html'});
     $routeProvider.otherwise({redirectTo: '/login'});
   }]);
